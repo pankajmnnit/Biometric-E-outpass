@@ -1,0 +1,128 @@
+@import "http://fonts.googleapis.com/css?family=Montserrat:300,400,700";
+.rwd-table {
+  margin: 1em 0;
+  min-width:300px;
+}
+.rwd-table tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.rwd-table th {
+  background: #E0E0E0;
+  display: none;
+}
+.rwd-table td {
+  display: block;
+}
+.rwd-table td:first-child {
+  padding-top: .5em;
+}
+.rwd-table td:last-child {
+  padding-bottom: .5em;
+}
+.rwd-table td:before {
+  content: attr(data-th) ":";
+  font-weight: bold;
+  width: 6.5em;
+  display: inline-block;
+}
+@media (min-width: 480px) {
+  .rwd-table td:before {
+    display: none;
+  }
+}
+.rwd-table th, .rwd-table td {
+  text-align: left;
+}
+@media (min-width: 480px) {
+  .rwd-table th, .rwd-table td {
+    display: table-cell;
+    padding: .25em .5em;
+  }
+  .rwd-table th:first-child, .rwd-table td:first-child {
+    padding-left: 0;
+  }
+  .rwd-table th:last-child, .rwd-table td:last-child {
+    padding-right: 0;
+  }
+}
+
+body {
+  padding: 0 2em;
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #444;
+  background-image:url(../images/banner1.jpg);
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: -1px;
+  background:#7F9AB8;
+  color: #34495E;
+}
+
+.rwd-table {
+    background:#34495E;
+    color:#ffffff;
+  border-radius: .4em;
+  overflow: hidden;
+}
+.rwd-table tr {
+  border-color: #46637f;
+}
+.rwd-table th, .rwd-table td {
+  margin: .5em 1em;
+}
+@media (min-width: 480px) {
+  .rwd-table th, .rwd-table td {
+    padding: 1em !important;
+  }
+}
+.rwd-table th, .rwd-table td:before {
+    color:#3498DB;
+}
+  .rwd-table input[type="submit"] {
+    color:#000000;
+    font-size: 1em;
+    outline: none;
+    padding: 1em 0.5em;
+    border: 1px solid #fff;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+    -webkit-appearance: none;
+    background:#7F9AB8;
+    width: 25%;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 1.5em;
+}
+.rwd-table input[type="submit"]:hover {
+    border-color:#3498DB;
+    background:#3498DB;
+    color: #fff;
+} 
+@media(max-width:768px){
+.rwd-table input[type="submit"] { 
+    margin-top: 3em;
+}
+.rwd-table input[type="submit"] {
+    margin-top: 2.5em;
+}
+.rwd-table input[type="submit"] {
+    margin-top: 2.5em;
+}
+.rwd-table input[type="submit"] { 
+    padding: 0.9em 1.7em;
+}
+.rwd-table input[type="submit"] {
+    padding: 0.6em 1.7em;
+    margin-top: 1em;
+}
+}
+.img-circle{
+    
+    border-radius: 60%;
+}

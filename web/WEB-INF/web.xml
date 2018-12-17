@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <servlet>
+        <servlet-name>Signup</servlet-name>
+        <servlet-class>Signup</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>gate</servlet-name>
+        <servlet-class>Gate</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Servlet2</servlet-name>
+        <servlet-class>Outpass_home</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Check</servlet-name>
+        <servlet-class>Checkerpass</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>hostel</servlet-name>
+        <servlet-class>Wardenlogin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>outpassStatus</servlet-name>
+        <servlet-class>outpassStatus</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Outpassfill</servlet-name>
+        <servlet-class>Outpassfill</servlet-class>
+    </servlet>
+     <servlet>
+        <servlet-name>rec</servlet-name>
+        <servlet-class>Prev_record</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>myapp</servlet-name>
+        <servlet-class>Myservlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>outpass</servlet-name>
+        <servlet-class>Warden</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ls1</servlet-name>
+        <servlet-class>Nb</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ls2</servlet-name>
+        <servlet-class>User</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Action_Warden</servlet-name>
+        <servlet-class>Action_Warden</servlet-class>
+    </servlet>
+     <servlet>
+        <servlet-name>kk</servlet-name>
+        <servlet-class>otpcheck</servlet-class>
+    </servlet>
+     <servlet>
+        <servlet-name>ft</servlet-name>
+        <servlet-class>forgototp</servlet-class>
+    </servlet>
+     <servlet>
+        <servlet-name>op</servlet-name>
+        <servlet-class>confirmotp</servlet-class>
+    </servlet>
+       <servlet>
+        <servlet-name>chngpass</servlet-name>
+        <servlet-class>checknewpass</servlet-class>
+    </servlet>
+     <servlet>
+        <servlet-name>Update</servlet-name>
+        <servlet-class>Update</servlet-class>
+    </servlet>
+      <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>logout</servlet-class>
+    </servlet>
+     <servlet>
+        <servlet-name>Gateforward</servlet-name>
+        <servlet-class>Gateforward</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Gate1</servlet-name>
+        <servlet-class>Gate1</servlet-class>
+    </servlet>
+     <servlet>
+        <servlet-name>Arrived</servlet-name>
+        <servlet-class>Arrived</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Emergency</servlet-name>
+        <servlet-class>Emergency</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>emey</servlet-name>
+        <servlet-class>Final</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Signup</servlet-name>
+        <url-pattern>/reg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Servlet2</servlet-name>
+        <url-pattern>/s2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>hostel</servlet-name>
+        <url-pattern>/pwd</url-pattern>
+    </servlet-mapping>
+    <context-param>
+        <param-name>value</param-name>
+        <param-value>isotarpj007</param-value>
+    </context-param>
+    <servlet-mapping>
+        <servlet-name>outpassStatus</servlet-name>
+        <url-pattern>/status</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Check</servlet-name>
+        <url-pattern>/check</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>gate</servlet-name>
+        <url-pattern>/gate</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Outpassfill</servlet-name>
+        <url-pattern>/Outpassfill</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>rec</servlet-name>
+        <url-pattern>/rec</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ls1</servlet-name>
+        <url-pattern>/nb</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ls2</servlet-name>
+        <url-pattern>/newuser</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>myapp</servlet-name>
+        <url-pattern>/push</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>outpass</servlet-name>
+        <url-pattern>/click</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Action_Warden</servlet-name>
+        <url-pattern>/ab</url-pattern>
+    </servlet-mapping>
+       <servlet-mapping>
+        <servlet-name>kk</servlet-name>
+        <url-pattern>/ott</url-pattern>
+    </servlet-mapping>
+      <servlet-mapping>
+        <servlet-name>ft</servlet-name>
+        <url-pattern>/forgot</url-pattern>
+    </servlet-mapping>
+      <servlet-mapping>
+        <servlet-name>op</servlet-name>
+        <url-pattern>/confotp</url-pattern>
+    </servlet-mapping>
+       <servlet-mapping>
+        <servlet-name>chngpass</servlet-name>
+        <url-pattern>/ch</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Update</servlet-name>
+        <url-pattern>/update</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/out</url-pattern>
+    </servlet-mapping>
+      <servlet-mapping>
+        <servlet-name>Gateforward</servlet-name>
+        <url-pattern>/gatefwd</url-pattern>
+    </servlet-mapping>
+     <servlet-mapping>
+        <servlet-name>Gate1</servlet-name>
+        <url-pattern>/gate1</url-pattern>
+    </servlet-mapping>
+     <servlet-mapping>
+        <servlet-name>Arrived</servlet-name>
+        <url-pattern>/arrv</url-pattern>
+    </servlet-mapping>
+     <servlet-mapping>
+        <servlet-name>Emergency</servlet-name>
+        <url-pattern>/eme</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>emey</servlet-name>
+        <url-pattern>/push1</url-pattern>
+    </servlet-mapping>
+    
+    <context-param>  
+<param-name>dname</param-name>  
+<param-value>com.mysql.jdbc.Driver</param-value>  
+</context-param> 
+ 
+<context-param>  
+<param-name>url</param-name>  
+<param-value>jdbc:mysql://localhost:3306/coerac_coerdb</param-value>  
+</context-param>
+
+
+<context-param>  
+<param-name>username</param-name>  
+<param-value>coerac_tnp</param-value>  
+</context-param>
+
+<context-param>  
+<param-name>password</param-name>  
+<param-value>tnp#123</param-value>  
+</context-param>
+  
+
+</web-app>
